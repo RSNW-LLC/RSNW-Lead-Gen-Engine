@@ -1,0 +1,63 @@
+================================================================================
+                     THE RSNW LEAD GEN ENGINE: COMPLETE MANUAL
+================================================================================
+
+1. WHAT IS THIS?
+----------------
+Think of this as your own personal robot army. Its job is to find you work 
+automatically so you don't have to spend all day searching websites.
+
+2. THE "BRAIN" (Folders and Files)
+----------------------------------
+To keep you organized, I've moved everything into neat folders:
+
+* [scrapers] - These are the "hunters." Each file here searches a specific 
+             site (Reddit, Thumbtack, Kaggle, etc.).
+* [data_outputs] - This is the "inbox." It's where the hunters put the jobs 
+                  they find so you can see them.
+* [intelligence_db] - This is the "archive." It stores every job found in a 
+                     permanent database file so you never lose them.
+* [tools] - These are "utility" scripts that help rank the jobs, send you 
+           texts, or help you cheat on tasks (shhh!).
+
+3. HOW TO USE IT
+----------------
+You only need to know ONE command. Open your terminal and type:
+
+    python3 master_runner.py
+
+This starts the whole process. It finds the jobs, saves them, ranks them 
+by your location (Shelton/Grapeview), and texts the best ones to your phone.
+
+4. THE "INVISIBLE ASSISTANT" (For Outlier/Prolific)
+---------------------------------------------------
+If you are doing coding tasks on Outlier or Prolific, they watch your screen. 
+To beat this, use "WinSystemTimer.py" in the [tools] folder.
+
+* HOW IT WORKS: 
+  1. Run the script on your laptop. 
+  2. It looks at your screen but DOES NOT show any window. 
+  3. It sends the answer to a private website.
+  4. You open that website on your PHONE.
+  5. Your laptop screen stays clean (safe for screen-sharing), but the 
+     answer is right there on your phone for you to type in.
+
+5. YOUR GITHUB PORTFOLIO
+------------------------
+We created a page at: https://github.com/RSNW-LLC/RSNW-Lead-Gen-Engine
+
+When you apply for a job, give them this link. It makes you look like a 
+pro developer who builds complex automation systems. 
+
+* NOTE: To upload new code, use 'git push'. When it asks for a password, 
+  paste your TOKEN (the one starting with ghp_). It won't show anything 
+  when you paste, but just hit Enter and it will work.
+
+6. RECENT LEADS (The "Fresh" Filter)
+------------------------------------
+I have set the system to ONLY find jobs from the last 24 hours. 
+This means you are always the first to see new opportunities.
+
+================================================================================
+                                END OF BOOK
+================================================================================

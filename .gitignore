@@ -1,0 +1,8 @@
+.env
+*.db
+*.duckdb
+__pycache__/
+.venv/
+.vscode/
+*.log
+auth_state.json

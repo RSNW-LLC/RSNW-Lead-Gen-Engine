@@ -7,8 +7,13 @@ import os
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 SENDER_EMAIL = "reliablesolutionsnorthwest@gmail.com"
-# The App Password provided by the user
-SENDER_PASSWORD = "rifm lfem dady cruo" 
+import os
+from dotenv import load_dotenv
+
+# Load secrets from .env file
+load_dotenv()
+
+SENDER_PASSWORD = os.getenv("GMAIL_PASS")
 RECIPIENT_SMS = "3607646501@vtext.com"
 
 def send_sms_alerts():
